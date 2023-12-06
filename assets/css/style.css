@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+main {
+            flex: 1;
+        }
+
+/* 
+font-family: 'Abril Fatface', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Limelight', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yeseva One', serif; */
+
+h1, h2, h4, h5, h6 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: 'Yeseva One', serif;
+    font-weight: 700;
+}
+
+.logo {
+    width: 180px;
+    font-weight: 900;
+    font-family: 'Abril Fatface', serif;
+}
+
+/* index page */
+.hero {
+    background-image: url('../images/products/car-1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 80vh;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn-theme {
+    padding: 10px 25px !important;
+    border-radius: 0px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    transition: transform 0.6s, box-shadow 0.3s, background-color 0.3s !important;
+    text-decoration: none !important;
+    color: white !important;
+    background-color: #ed3d38 !important;
+    border: 0.6px solid rgb(110, 105, 105) !important;
+}
+
+
+.btn-theme:hover {
+    background-color: white !important;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    color: #ed3d38 !important;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+/* ----------------------------- product page */
+
+.image-hover {
+    transition: transform 0.2s; /* Smooth transition effect */
+}
+
+.image-hover:hover {
+    transform: scale(1.1); /* Scale the image by 110% on hover */
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.full-height-img {
+    object-fit: cover !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.custom-card {
+    border-radius: 33px !important;
+    transition: .4s all ease-in-out;
+    min-height: 100%;
+    /* width: 250px; */
+}
+
+.custom-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+
+.card-description {
+    display: none;
+    margin-top: 10px;
+}
+
+.show-cusror {
+    cursor: pointer;
+}
