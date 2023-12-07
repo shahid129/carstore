@@ -4,7 +4,7 @@ const lastResults = [];
 // Counter for the number of chances left
 let chancesLeft = 5;
 
-function rollDice() {
+function raffle() {
     // Check if there are chances left
     if (chancesLeft === 0) {
         document.getElementById('winMessage').textContent = 'Game over. You have used all your chances.';
